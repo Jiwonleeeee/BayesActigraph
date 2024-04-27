@@ -14,12 +14,12 @@ y_input, cutoff, end_input
 \arguments{
   \item{y_input}{T-dimensional y vector.}
   \item{cutoff}{User-specific cutoff (threshold) value. Measurements less than the cutoff are classified to the resting states.}
-  \item{end_input}{The last element of the vector 'rest'. We fix it as $T + 0.5$ throughout the entire algorithm and it varies by subjects.}
+  \item{end_input}{The last element of the vector 'rest'. We fix it as \eqn{T + 0.5} throughout the entire algorithm and it varies by subjects.}
 }
 
 \value{
-\item{active}{B-dimensional vector, denoted by $a_1,\ldots,a_B$ in the paper.}
-\item{rest}{B-dimensional vector, denoted by $r_1,\ldots,r_B$. Each element in 'active' and 'rest' constructs the active interval by (active[b], rest[b]) and the resting interval by (rest[b], active[b+1]) for b=1,...,B.}
+\item{active}{B-dimensional vector, denoted by \eqn{a_1,\ldots,a_B} in the paper.}
+\item{rest}{B-dimensional vector, denoted by \eqn{r_1,\ldots,r_B}. Each element in 'active' and 'rest' constructs the active interval by (active[b], rest[b]) and the resting interval by (rest[b], active[b+1]) for \eqn{b=1,\ldots,B}.}
 %%  ~Describe the value returned
 }
 

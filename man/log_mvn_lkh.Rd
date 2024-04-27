@@ -20,9 +20,7 @@ log_mvn_lkh(y_input, t_input, mu_input, sigma2_input, l_input, g_input)
   \item{g_innput}{Nugget term of MVN.}
 
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{
 \item{value}{Calculated log likelihood}
 }

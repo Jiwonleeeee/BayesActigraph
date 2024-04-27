@@ -12,15 +12,15 @@ log_pois_lkh(y_input, Pi_input, Lambda_input)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{y_input}{Scalar or vector of y of interest.} 
-  \item{Pi_input}{K-dimensional vector of mixing proportions pi.} 
-  \item{Lambda_input}{K-dimensional vector of parameters of Poisson distributions. } 
+  \item{y_input}{Scalar or vector of y of interest.}
+  \item{Pi_input}{K-dimensional vector of mixing proportions \eqn{\pi_1,\ldots,\pi_K}.}
+  \item{Lambda_input}{K-dimensional vector of parameters of Poisson distributions. }
 %%     ~~Describe \code{x} here~~
 }
 }
 
 \value{
-\item{sum_value}{Calculated sum of the log likelihood.} 
+\item{sum_value}{Calculated sum of the log likelihood.}
 }
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
