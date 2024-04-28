@@ -2,7 +2,7 @@
 \alias{acc_birth_ar}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-RJMCMC for birth of an active interval (a,r).
+Metropolis-Hastings for the birth of an active interval (a,r).
 }
 \description{
 Return the updated parameters (if the birth of (a,r) is accepted), return the same parameters otherwise.
