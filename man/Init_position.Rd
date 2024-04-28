@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Setting initial positions}
 \description{
- Set initial positions of change points used to construct active and resting intervals.
+ Set initial positions of the change points \eqn{a_1,\ldots,a_B} and \eqn{r_1,\ldots,r_B} used to construct active and resting intervals.
 }
 \usage{
 initial_position(

@@ -2,7 +2,7 @@
 \alias{acc_birth_ar}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Metropolis-Hastings for the birth of an active interval (a,r).
+Metropolis-Hastings for the birth of an active interval (a,r)
 }
 \description{
 Return the updated parameters (if the birth of (a,r) is accepted), return the same parameters otherwise.
@@ -35,10 +35,10 @@ Probability of choosing birth move.
 Probability of choosing death move.
 }
   \item{active_input}{
-B-dimensional vector
+B-dimensional vector.
 }
   \item{rest_input}{
-B-dimensional vector
+B-dimensional vector.
 }
   \item{n_active_input}{
 Total number of active intervals.
@@ -52,6 +52,6 @@ Total number of resting intervals.
 \item{active}{(B+1)-dimensional vector if the birth of (a,r) is accepted, the same B-dimensional vector otherwise.}
 \item{rest}{(B+1)-dimensional vector if the birth of (a,r) is accepted, the same B-dimensional vector otherwise.}
 \item{accept}{Indicator if accept = 1 then the proposed is accepted, and accept = 0 otherwise. (for tracking the acceptance probability).}
-\item{n_active}{The number of active intervals after updating}
-\item{n_rest}{The number of resting intervals after updating}
+\item{n_active}{The number of active intervals after updating.}
+\item{n_rest}{The number of resting intervals after updating.}
 }

@@ -10,16 +10,16 @@ Calculate the probabilities for choosing an active (resting) interval to be remo
 prob_return_death(active_input, rest_input, n_active_input, n_rest_input)
 }
 %- maybe also 'usage' for other objects documented here.
-\arguments
+\arguments{
 
-  \item{active_input}{All the arguments are the same as \code{prob_return_birth}}
+  \item{active_input}{All the arguments are the same as \code{prob_return_birth}.}
   \item{rest_input}{}
   \item{n_active_input}{}
   \item{n_rest_input}{}
 }
 
 \value{
-\item{active_prob}{('n_active_input'-2)-dimensional vector with each element representing probability inversely proportional to the length of the corresponding active interval. Since we fix the state of the first and last interval as active, they cannot be removed.}
-\item{rest_prob}{'n_rest_input'-dimensional vector with each element representing probability inversely proportional to the length of the corresponding resting interval.}
+\item{active_prob}{('n_active_input'-2)-dimensional vector with each element representing a probability inversely proportional to the length of the corresponding active interval. Since we fix the state of the first and last interval as active, they cannot be removed.}
+\item{rest_prob}{'n_rest_input'-dimensional vector with each element representing a probability inversely proportional to the length of the corresponding resting interval.}
 
 }
